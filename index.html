@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mary & Gabi Petshop era o fudido que eu arrumei</title>
+    <title>Mary & Gabi Petshop</title>
     <link rel="icon" type="imagem/png " href="img/patinha-preta.png">
     <link rel="stylesheet" href="petstyle.css">
 </head>
@@ -40,7 +40,7 @@
             </div>
 
             <div class="col">
-                <img src="img/img-sobre.jpg" alt="Cachorros" class="menor">
+                <img src="img/img-sobre.jpg" alt="Cachorros" class="fotinha">
             </div>
         </div>
     </section>
@@ -54,24 +54,26 @@
                 <p class="texto_do_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, vitae. A, minus. Sapiente maiores qui officiis animi. Quae velit provident consequatur, obcaecati, vel voluptatibus ipsam eius minus a unde at!</p>
            </div>
              
-            <div class="flex-container">
+            <div class="flex-container" id="produtos">
                 
                 <article class="produto">
-                    <figure>
-                        <img src="img/produto-1.jpg" alt="Produto 1">
-                    </figure> 
-                    <h3>Pet Produto 1</h3>
-                    <p>R$ 150,00</p>
+                
+                        <figure>
+                            <img src="img/produto-1.jpg" alt="Produto 1" class="foto">
+                        </figure> 
+                        <h3 class="btn_pata">Pet Produto 1</h3>
+                        <p class="btn_pata">R$ 150,00</p>
+                   
                     
                     <a href="#" class="btn-pata">
-                        <img src="img/patinha-preta.png" alt="Patinha Preta">
+                        <img src="img/patinha-preta.png" alt="Patinha Preta" class="">
                         Comprar
                     </a>    
                 </article>
 
                 <article class="produto">
                     <figure>
-                        <img src="img/produto-2.jpg" alt="Produto 2">
+                        <img src="img/produto-2.jpg" alt="Produto 2" class="foto">
                     </figure> 
                     <h3>Pet Produto 2</h3>
                     <p>R$ 150,00</p>
@@ -84,7 +86,7 @@
 
                 <article class="produto">
                     <figure>
-                        <img src="img/produto-3.jpg" alt="Produto 3">
+                        <img src="img/produto-3.jpg" alt="Produto 3" class="foto">
                     </figure> 
                     <h3>Pet Produto 3</h3>
                     <p>R$ 150,00</p>
@@ -99,16 +101,16 @@
     </section>
 
     <section class="fundo-verde">
-        <div class="container flex-container" id="sobre">
+        <div class="container flex-container" id="Servicos">
             <div class="col">
                 <h2>Serviços</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat nulla adipisci pariatur nihil provident unde culpa in exercitationem necessitatibus ab voluptatem modi minima placeat quasi temporibus voluptas suscipit, dolores dolore!</p>
             </div>
-            <div class="col" id="conjunto">
-                <img src="img/img-galeria-1.jpg" alt="Sobre">
-                <img src="img/img-galeria-2.jpg" alt="Sobre">
-                <img src="img/img-galeria-3.jpg" alt="Sobre">
-                <img src="img/img-galeria-4.jpg" alt="Sobre">
+            <div class="col conjunto">
+                <img src="img/img-galeria-1.jpg" alt="Sobre" class="foto">
+                <img src="img/img-galeria-2.jpg" alt="Sobre" class="foto">
+                <img src="img/img-galeria-3.jpg" alt="Sobre" class="foto">
+                <img src="img/img-galeria-4.jpg" alt="Sobre" class="foto">
             </div>  
         </div>
     </section>
@@ -117,57 +119,58 @@
     
     
     
-    <section>
-        <div class="container">
+    <section id="big">
+        <div class="container" id="">
             <div class="texto-centralizado">
                 <h2>Contato</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsum possimus molestias necessitatibus laudantium rerum omnis. Ad  fuga maxime velit, eligendi aspernatur voluptatibus culpa nisi ullam necessitatibus, modi repellendus veritatis?</p>
             </div>
-        </div>
+        
 
-        <div class="flex-container">
-            <div class="col" id="form">
-                <form action="">
-
-                
-                    <b><label for="text">Nome</label></b>
-                    <input type="text" placeholder="Insira seu nome completo">
-                
+            <div class="flex-container" id="flex">
+                <div class="col" id="form">
+                    <form action="">
 
                 
-                    <b><label for="email">E-mail</label></b>
-                    <input type="email" placeholder="exemplo@teste.com.br">
+                        <b><label for="text">Nome</label></b>
+                        <input type="text" placeholder="Insira seu nome completo">
                 
 
                 
-                    <b><label for="telefone">telefone</label></b>
-                    <input type="number" placeholder="(11)00000-0000 ou (11)90000-0000">
+                        <b><label for="email">E-mail</label></b>
+                        <input type="email" placeholder="exemplo@teste.com.br">
                 
 
                 
-                    <b><label for="Assunto">Assunto</label></b>
-                    <input type="text" placeholder="Insira aqui o assunto da mensagem">
+                        <b><label for="telefone">telefone</label></b>
+                        <input type="number" placeholder="(11)00000-0000 ou (11)90000-0000">
+                
+
+                
+                        <b><label for="Assunto">Assunto</label></b>
+                        <input type="text" placeholder="Insira aqui o assunto da mensagem">
                 
 
                
-                    <b><label for="textarea">Mensagem</label></b>
-                    <textarea name="iarea" id="iarea" cols="30" rows="5" placeholder="Deixe aqui sua mensagem"></textarea>
+                        <b><label for="textarea">Mensagem</label></b>
+                        <textarea name="iarea" id="iarea" cols="30" rows="5" placeholder="Deixe aqui sua mensagem"></textarea>
                 
 
                 
-                    <button  class="btn-pata">
-                        <img src="img/patinha-preta.png" alt="patinha-preta">Enviar
+                        <button  class="btn-pata">
+                            <img src="img/patinha-preta.png" alt="patinha-preta">Enviar
 
-                    </button>
+                        </button>
             
-                </form>
-            </div>
+                    </form>
+                </div>
 
-            <div class="col">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14613.792539547034!2d-46.75891075!3d-23.695685749999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5212f9627de5%3A0x1c5ccd29c1a3e96a!2sEtec%20Jardim%20%C3%82ngela!5e0!3m2!1spt-BR!2sbr!4v1652922341913!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <p><strong>Endereço: Estrada da Baronesa, 1475 - Jardim Nakamura, São Paulo / SP</strong></p>
-                <p><strong> CEP:</strong><strong>05674-000</strong></p>
-                <p><strong>TEL: </strong>(11)6666-7777</p>
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14613.792539547034!2d-46.75891075!3d-23.695685749999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5212f9627de5%3A0x1c5ccd29c1a3e96a!2sEtec%20Jardim%20%C3%82ngela!5e0!3m2!1spt-BR!2sbr!4v1652922341913!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p><strong>Endereço: Estrada da Baronesa, 1475 - Jardim Nakamura, São Paulo / SP</strong></p>
+                    <p><strong> CEP:</strong><strong>05674-000</strong></p>
+                    <p><strong>TEL: </strong>(11)6666-7777</p>
+                </div>
 
             </div>
         </div>
